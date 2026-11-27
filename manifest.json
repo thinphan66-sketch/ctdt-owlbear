@@ -1,0 +1,15 @@
+{
+  "name": "Cửu Trọng Đạo Tháp — Trợ Lý Chiến Đấu",
+  "version": "1.0.0",
+  "manifest_version": 1,
+  "author": "Cửu Trọng Đạo Tháp TTRPG",
+  "description": "Thanh Máu/LL/CY/Thế gắn Token, Máy tính ST 5 bước, 9 Phản Ứng Nguyên Tố, Vùng Telegraph Boss, Tung 2d10 & DC Động, Thư viện Quái Tầng 1.",
+  "icon": "icon.svg",
+  "action": {
+    "title": "Cửu Trọng Đạo Tháp",
+    "icon": "icon.svg",
+    "popover": "index.html",
+    "height": 680,
+    "width": 420
+  }
+}

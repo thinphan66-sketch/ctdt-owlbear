@@ -1,0 +1,63 @@
+4️⃣ HỆ THỐNG ĐỘ KIẾP 3 HỒI (KHI ĐỘT PHÁ ĐẠI CẢNH GIỚI)
+
+Độ Kiếp không bao giờ chỉ là 1 lần tung xúc xắc may rủi, mà là một kịch bản sinh tử gồm 3 Hồi (cần vượt tối thiểu 2/3
+Hồi và không để Máu / Đạo Tâm về 0):
+
+🛠️ Chuẩn Bị (Trước khi vào Kiếp): Chọn địa thế tốt (Địa Mạch mạnh), mang đan dược, pháp bảo chắn kiếp, quyết định có
+dùng Công Đức trợ lực không, và phân vai đồng đội.
+🔥 Hồi 1 — Khởi Kiếp (Tụ Áp): Kiểm tra nền tảng Khí Huyết hoặc Chân Khí (cộng thưởng từ Viên Mãn / Cực Cảnh). Trượt Hồi
+1 sẽ vào Hồi 2 với bất lợi hao Máu/LL sẵn.
+⚡ Hồi 2 — Chính Kiếp (Thực Chiến): Chống chịu trực diện Thân Kiếp / Thiên Lôi Kiếp / Tâm Kiếp / Nhân Quả Kiếp (2–4 lượt
+thực chiến hoặc giải đố môi trường — thậm chí phải chống kẻ thù bên ngoài tới phá!).
+🧠 Hồi 3 — Vấn Đạo (Quyết Định): Bài kiểm tra Đạo Tâm & Nhân Quả — một lựa chọn nhập vai hoặc đòn kết liễu mang tính
+bước ngoặt của riêng nhân vật.
+Kết Quả Độ Kiếp:
+🏆 Đột Phá Hoàn Mỹ (3/3 Hồi): Lên Đại Cảnh Giới + thưởng thêm +2 Chỉ Số + 1 Danh Hiệu!
+⚠️ Đột Phá Có Vết Nứt (2/3 Hồi hoặc cưỡng ép): Vẫn lên cảnh giới nhưng bị Rạn Đạo Ấn (cần tìm cách tu bổ sau).
+💀 Thất Bại (≤ 1/3 Hồi): Không chết lãng xẹt (trừ khi Máu về 0 không ai cứu), nhưng lùi về Ổn Cố, chịu Nội Thương và cần
+tài nguyên hồi phục trước khi thử lại.
+🤝 Độ Kiếp Cùng Đồng Đội (2 Cách Hỗ Trợ):
+Hộ Pháp (Đứng ngoài vòng Kiếp): Chặn kẻ thù phá đám, giữ trận tụ linh, ném thuốc vào → KHÔNG làm tăng sức mạnh Kiếp.
+Nhập Kiếp Trợ Chiến (Xông thẳng vào vòng Kiếp): Cùng chia sát thương Thiên Lôi / cứu bạn trong Huyễn Cảnh → làm tăng +1
+độ khó Kiếp, nhưng giúp cả hai san sẻ áp lực sống còn! (Hồi 3 Vấn Đạo vẫn phải do chính người Độ Kiếp tự trả lời.)
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cửu Trọng Đạo Tháp — Owlbear Rodeo Extension</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="app-header">
+    <div class="brand">🏯 CỬU TRỌNG ĐẠO THÁP</div>
+    <div id="role-badge" class="role-pill">Đang kết nối...</div>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab-btn active" data-tab="combat">⚔️ Chiến Đấu</button>
+    <button class="tab-btn" data-tab="dice">🎲 2d10 & DC</button>
+    <button class="tab-btn" data-tab="monsters">👹 Quái & Log</button>
+  </nav>
+
+  <main class="content">
+    <!-- TAB 1: CHIẾN ĐẤU & TOKEN -->
+    <section id="tab-combat"></section>
+
+    <!-- TAB 2: TUNG 2D10 & DC ĐỘNG -->
+    <section id="tab-dice" class="hidden"></section>
+
+    <!-- TAB 3: THƯ VIỆN QUÁI & COMBAT LOG -->
+    <section id="tab-monsters" class="hidden"></section>
+  </main>
+
+  <footer class="law-footer">
+    Luật Tầng 1: Sát Giếng Mạch <strong>+1 LL/lượt</strong> · Bay &gt;2 lượt <strong>+1 LL/chiêu</strong>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+
+</html>
