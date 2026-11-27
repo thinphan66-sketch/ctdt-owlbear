@@ -1,14 +1,14 @@
 {
   "name": "Cửu Trọng Đạo Tháp — Trợ Lý Chiến Đấu",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "manifest_version": 1,
   "author": "Cửu Trọng Đạo Tháp TTRPG",
   "description": "Trợ lý chiến đấu Cửu Trọng Đạo Tháp: Máu/LL/CY/Thế, ST 5 bước, 2d10 & DC Động, Quái Tầng 1.",
-  "icon": "icon.svg",
+  "icon": "/ctdt-owlbear/icon.svg",
   "action": {
     "title": "Cửu Trọng Đạo Tháp",
-    "icon": "icon.svg",
-    "popover": "index.html",
+    "icon": "/ctdt-owlbear/icon.svg",
+    "popover": "/ctdt-owlbear/index.html",
     "height": 680,
     "width": 420
   }
